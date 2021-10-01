@@ -1,15 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- ICON -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <!-- ICON -->
+  <!-- CSS -->
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- CSS -->
 </head>
 <body>
-  
+  <section class="hero">
+    <div class="container">
+      <div class="header-contact">
+        <a class="header-contact__addres" href="#"><i class='bx bxs-home'></i>г. Мариуполь, проспект Победы, 48а</a>
+        <ul class="tell">
+          <li class="tell__list">
+            <a class="tell__link link--hover" href="tel:0676347574">
+              (067) 634 -75 - 74
+            </a></li>
+          <li class="tell__list">
+            <a class="tell__link link--hover" href="tel:0676347574">
+              (0637) 57 - 01 - 31
+            </a></li>
+          <li class="tell__list">
+            <a class="tell__link link--hover" href="tel:0676347574">
+              (098) 266 - 43 - 89
+            </a></li>
+        </ul>
+        <ul class="work-time">
+          <li class="work-time__list">
+            <a class="work-time__link" href="#">Пн - Пт 8:00 - 18:00</a>
+          </li>
+          <li class="work-time__list">
+            <a class="work-time__link" href="#">Сб - Вс 8:00 - 14:00</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <a class="header__logo" href="index.html">
+            <img class="header__img" src="media/img/logo.svg" alt="site-logo">
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Главная
+                </a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  О Клинике
+                </a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Наши Услуги
+                </a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Полезные Статьи
+                </a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  FAQ
+                </a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Контакты 
+                </a></li>
+            </ul>
+          </nav>
+          <div class="modals">
+            <label class="modals__label" for="modal">Задать вопрос</label>
+            <input class="modals__inp" type="checkbox" id="modal">
+            <div class="modal modal--bg modal--bgi">
+              <div class="modal__box modal__box--bg">
+                
+                <input class="modal__xinp" type="checkbox" name="modal" id="x">
+                <label class="modal__x" for="x"><i class='bx bx-x'></i></label>
+                <div class="row between">
+                  <div class="visit-sec">
+                      <h2 class="visit--sec__title">Авторизация:</h2>
+                    <ul class="visit">
+                      <li class="visit__list"><a href="#">
+                      <img class="visit__img" src="media/img/google.png" alt="google">
+                      </a>
+                    </li>
+                      <li class="visit__list"><a href="#">
+                        <img class="visit__img" src="media/img/facebook.png" alt="facebook">
+                      </a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="visit__title" >Задать вопрос</h3>
+                    <form class="visit__form" action="https://echo.htmlacademy.ru/">
+                      <input class="visit__inp" type="text" name="name" placeholder="Ваше имя" required>
+                      <textarea class="visit__message" name="message" placeholder="Опишите Ваш вопрос."></textarea required>
+                      <button class="visit__btn" type="submit" >Отправить</button>
+                    </form>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="main">
+        <div class="main__bgi col-6">
+        </div>
+        <div class="main__wrapper col-5">
+          <h2 class="main__title">Мы заботимся о <span>ваших питомцах!</span></h2>
+          <p class="main__text">
+            Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы  работающие в нашей клинике сделают все для того, чтобы быстро,  эффективно и максимально безболезненно выполнить любие процедуры,  которые необходимы Вашему домашнему любимцу.
+          </p>
+          <a class="main__btn btn" href="#">Наши услуги</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+    <section>
+      <div class="container">
+        <div class="quote quote--bg">
+          <h2 class="quote__visually--hidden"></h2>
+          <p class="quote__text">Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.</p>
+          <span class="quote__span">Оржоникидзевская Ветеринарная клиника</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="servis">
+          <h2 class="servis__title">Наши услуги</h2>
+          <button class="servis__left slider"><i class='bx bx-chevron-left'></i></button>
+          <ul class="servis-list">
+            <li class="servis-list__item">
+              <h3 class="servis-list__title">Первичный осмотр</h3>
+            </li>
+            <li class="servis-list__item">
+              <h3 class="servis-list__title">Первичный осмотр</h3>
+            </li>
+            <li class="servis-list__item">
+              <h3 class="servis-list__title">Хирургическое вмешательство</h3>
+            </li>
+            <li class="servis-list__item">
+              <h3 class="servis-list__title">Дерматология</h3>
+            </li>
+            <li class="servis-list__item">
+              <h3 class="servis-list__title">Лабораторная диагностика</h3>
+            </li>
+            <li class="servis-list__item">
+              <h3 class="servis-list__title">Офтальмология</h3>
+            </li>
+          </ul>
+          <button class="servis-right slider"><i class='bx bx-chevron-right'></i></button>
+          <div class="view">
+            <div class="view__img col-6">
+              <img src="media/img/view-img.png" alt="img">
+            </div>
+            <div class="col-6">
+              <h2 class="view__title">Первичный осмотр</h2>
+              <p class="view__text">По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+              <p class="view__text">По условиям акции в нашей клинике предоставляетса безплатная услуга “Дневной стационар” которая позволяет экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+              <ul class="view-list">
+                <li class="view-list__item">
+                  <a class="view-list__link money--btn" href="#">Узнать цену</a>
+                </li>
+                <li class="view-list__item">
+                  <a class="view-list__link doc--btn" href="#">Записаться на приём</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="follow foollow--bg">  
+        <h2 class="follow__title">Будь в курсе событий</h2>
+        <form class="f0llow__form" action="https://echo.htmlacademy.ru/">
+        <input class="follow__inp" type="email" name="email" placeholder="Укажите Ваш email адрес" required>
+        <button class="follow__btn btn" type="submit">Подписаться</button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
